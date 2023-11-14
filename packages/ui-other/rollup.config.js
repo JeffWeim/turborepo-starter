@@ -20,7 +20,10 @@ export default [
       format: "cjs",
       preserveModules: true,
       preserveModulesRoot: "./",
-      exports: "auto"
+      exports: "auto",
+      paths: {
+        '@ui/*': '../ui/components/*',
+      }
     },
     external: ["react", "react-dom"],
     plugins: [

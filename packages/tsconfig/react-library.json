@@ -6,6 +6,9 @@
     "lib": ["ES2015", "DOM"],
     "module": "ESNext",
     "target": "ES6",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "@ui/*": ["../ui/components/*"],
+    }
   }
 }
